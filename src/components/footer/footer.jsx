@@ -1,6 +1,6 @@
 import './footer.css'
 
-function Footer() {
+function Footer(){
     return (
         <footer class="footer mt-2 footer-center text-center inherit text-base-content ">
             <div className='grid grid-col-3 gap-4 justify-content-center'>

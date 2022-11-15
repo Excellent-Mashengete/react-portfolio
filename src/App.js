@@ -1,6 +1,6 @@
 import Home from "./components/Home/home";
-import Navbar from "./components/Navbar/navbar";
-import Footer from "./components/Footer/footer";
+import Header from "./components/navbar/navbar";
+import Footer from "./components/footer/footer";
 import About from "./components/About/about";
 import Skills from "./components/Skills/skills";
 import Projects from "./components/Projects/projects";
@@ -12,13 +12,13 @@ import './App.css';
 function App() {
   return (
     <Router>
-      <Navbar />
+      <Header />
       <div id="home"><Home /></div>
       <div id="about"><About /></div>
       <div id="skills"><Skills /></div>
       <div id="projects"><Projects /></div>
       <div id="contact"><Contact /></div>
-      <Footer />
+     <Footer />
     </Router>
   );
 }

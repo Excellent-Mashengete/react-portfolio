@@ -1,14 +1,12 @@
 import React, { useState } from "react";
 import { Container, Nav, Navbar} from "react-bootstrap";
 import { Link } from "react-router-dom";
-import { DiJavascript1, DiNodejs, DiMongodb, DiPython, DiGit, DiDjango, DiPostgresql } from "react-icons/di";
-import {SiAngular, SiNestjs, SiTypescript} from "react-icons/si";
 import { AiOutlineHome, AiOutlineFundProjectionScreen, AiOutlineUser } from "react-icons/ai";
-import { CgFileDocument, CgCPlusPlus } from "react-icons/cg";
+import { CgFileDocument } from "react-icons/cg";
 import { MdOutlineMail } from "react-icons/md";
 import './navbar.css';
 
-function NavBar() {
+function Header() {
     const [expand ] = useState(false);
     const [navColour] = useState(false);  
 
@@ -17,7 +15,7 @@ function NavBar() {
     // fixed="top"
     // expand="md"
     // className={navColour ? "sticky" : "navbar"} bg="dark" variant="dark" >
-        <Navbar>
+        <Navbar collapseOnSelect expand="md">
         <Container >
             <Navbar.Brand href="#home">E.N.M</Navbar.Brand>
             <Navbar.Toggle className="text-white" aria-controls="responsive-navbar-nav" >
@@ -62,4 +60,4 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export default Header;
