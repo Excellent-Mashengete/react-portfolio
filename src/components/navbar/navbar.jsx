@@ -1,38 +1,64 @@
-import React from "react";
-import Container from "react-bootstrap/Container";
-import { NavLink } from "react-router-dom";
+import React, { useState } from "react";
+import { Container, Nav, Navbar} from "react-bootstrap";
+import { Link } from "react-router-dom";
+import { DiJavascript1, DiNodejs, DiMongodb, DiPython, DiGit, DiDjango, DiPostgresql } from "react-icons/di";
+import {SiAngular, SiNestjs, SiTypescript} from "react-icons/si";
+import { AiOutlineHome, AiOutlineFundProjectionScreen, AiOutlineUser } from "react-icons/ai";
+import { CgFileDocument, CgCPlusPlus } from "react-icons/cg";
+import { MdOutlineMail } from "react-icons/md";
+import './navbar.css';
 
 function NavBar() {
-  return (
-    <Container>
-        <div className="navbar bg-base-100">
-            <div className="flex-1">
-                <NavLink className="btn py-2 mt-2 btn-ghost normal-case text-xl">E.N.M</NavLink>
-            </div>
+    const [expand ] = useState(false);
+    const [navColour] = useState(false);  
 
-            <div class="flex-none gap-2">
-                <ul class="menu menu-horizontal p-0 ml-2 hidden lg:contents">
-                    <li class="ml-2"><NavLink >HOME</NavLink></li>
-                    <li class="ml-2"><NavLink >ABOUT</NavLink></li>
-                    <li class="ml-2" ><NavLink >PROJECTS</NavLink></li>
-                    <li class="ml-2" ><NavLink >SKILLS</NavLink></li> 
-                    <li class="ml-2" ><NavLink >CONTACT</NavLink></li> 
-                </ul>
-                <div class="dropdown dropdown-end ">
-                    <label tabindex={0} class="btn btn-ghost btn-circle">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
-                    </label>
-                    <ul tabindex={0} class="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box  w-52">
-                        <li class="ml-2"><NavLink >HOME</NavLink></li>
-                        <li class="ml-2"><NavLink >ABOUT</NavLink></li>
-                        <li class="ml-2" ><NavLink >PROJECTS</NavLink></li>
-                        <li class="ml-2" ><NavLink >SKILLS</NavLink></li> 
-                        <li class="ml-2" ><NavLink >CONTACT</NavLink></li> 
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </Container>
+  return (
+    // <Navbar collapseOnSelect  expanded={expand}
+    // fixed="top"
+    // expand="md"
+    // className={navColour ? "sticky" : "navbar"} bg="dark" variant="dark" >
+        <Navbar>
+        <Container >
+            <Navbar.Brand href="#home">E.N.M</Navbar.Brand>
+            <Navbar.Toggle className="text-white" aria-controls="responsive-navbar-nav" >
+                <span></span>
+                <span></span>
+                <span></span>
+            </Navbar.Toggle>
+
+            <Navbar.Collapse id="responsive-navbar-nav">
+                <Nav className="me-auto">
+                    <Nav.Link  href="#features"></Nav.Link>
+                    <Nav.Link href="#pricing"></Nav.Link>
+                </Nav>
+                <Nav className="navLink">
+                    <Nav.Item>
+                        <Nav.Link exact as={Link} to="/"><AiOutlineHome style={{marginTop: "4px", marginRight:"5px"}} />HOME</Nav.Link>
+                    </Nav.Item>
+
+                    <Nav.Item>
+                        <Nav.Link exact href="#about"><AiOutlineUser style={{marginTop: "4px", marginRight:"5px"}}/>ABOUT</Nav.Link>
+                    </Nav.Item>
+                   
+                    <Nav.Item>
+                        <Nav.Link exact href="#skills">SKILLS</Nav.Link>
+                    </Nav.Item>
+
+                    <Nav.Item>
+                        <Nav.Link exact href="#projects"><AiOutlineFundProjectionScreen style={{marginTop: "4px", marginRight:"5px"}} /> PROJECTS</Nav.Link>
+                    </Nav.Item>
+
+                    <Nav.Item>
+                        <Nav.Link exact href="#resume"><CgFileDocument style={{marginTop: "4px", marginRight:"5px"}} />RESUME</Nav.Link>
+                    </Nav.Item>
+
+                    <Nav.Item>
+                        <Nav.Link exact href="#contact"><MdOutlineMail style={{marginTop: "4px", marginRight:"5px"}} />CONTACT</Nav.Link> 
+                    </Nav.Item>
+                </Nav>
+            </Navbar.Collapse>
+        </Container>
+    </Navbar>
   );
 }
 
