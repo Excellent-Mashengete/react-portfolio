@@ -37,17 +37,13 @@ function Header() {
                     <Nav.Item>
                         <Nav.Link exact href="#about"><AiOutlineUser style={{marginTop: "4px", marginRight:"5px"}}/>ABOUT</Nav.Link>
                     </Nav.Item>
-                   
-                    <Nav.Item>
-                        <Nav.Link exact href="#skills">SKILLS</Nav.Link>
-                    </Nav.Item>
-
-                    <Nav.Item>
-                        <Nav.Link exact href="#projects"><AiOutlineFundProjectionScreen style={{marginTop: "4px", marginRight:"5px"}} /> PROJECTS</Nav.Link>
-                    </Nav.Item>
-
+ 
                     <Nav.Item>
                         <Nav.Link exact href="#resume"><CgFileDocument style={{marginTop: "4px", marginRight:"5px"}} />RESUME</Nav.Link>
+                    </Nav.Item>
+                    
+                    <Nav.Item>
+                        <Nav.Link exact href="#projects"><AiOutlineFundProjectionScreen style={{marginTop: "4px", marginRight:"5px"}} /> PROJECTS</Nav.Link>
                     </Nav.Item>
 
                     <Nav.Item>
