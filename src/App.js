@@ -13,11 +13,10 @@ function App() {
   return (
     <Router>
       <Header />
-      <div id="home"><Home /></div>
-      <div id="about"><About /></div>
-      <div id="projects"><Resume /></div>
-      <div id="projects"><Projects /></div>
-      <div id="contact"><Contact /></div>
+      <section id="/"><Home /></section>
+      <section id="about"><About /></section>
+      <section id="projects"><Projects /></section>
+      <section id="contact"><Contact /></section>
       <Footer />
     </Router>
   );

@@ -9,7 +9,7 @@ function Contact() {
     let linkedIn = "https://za.linkedin.com/in/excellent-nhlanhla-mashengete-12535121b";
     let github= "https://github.com/Excellent-Mashengete";
     return (
-        <Container >
+        <Container id="contact">
             <h3 className="flex justify-center project-heading mb-4">
                 Contact 
             </h3> 
