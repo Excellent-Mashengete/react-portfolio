@@ -1,6 +1,7 @@
 import Home from "./components/Home/home";
+import HomeFooter from "./components/Home/HomeFooter/homefooter";
 import Header from "./components/Navbar/navbar";
-import Footer from "./components/Footer/footer"
+import Footer from "./components/Home/HomeFooter/homefooter"
 import About from "./components/About/about";
 import Resume from "./components/Resume/resume";
 import Projects from "./components/Projects/projects";
@@ -12,12 +13,14 @@ import './App.css';
 function App() {
   return (
     <Router>
-      <Header />
-      <section id="/"><Home /></section>
-      <section id="about"><About /></section>
-      <section id="projects"><Projects /></section>
-      <section id="contact"><Contact /></section>
+    
+      <Home />
       <Footer />
+      {/* <section className="home"  id="/"><Home /></section>
+      <section className="about" style={{backgroundColor: 'yellow'}} id="about"><About /></section>
+      <section className="projects" style={{backgroundColor: 'white'}}id="projects"><Projects /></section>
+      <section className="contact" style={{backgroundColor: 'blue'}}id="contact"><Contact /></section>
+      <Footer /> */}
     </Router>
   );
 }

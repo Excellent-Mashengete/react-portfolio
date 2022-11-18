@@ -18,6 +18,11 @@ function Resume() {
                             I combine good communication skills. greate technological expertise, 
                             team player who can work in a fast-paced environment  and independently when needed.
                         </em>
+                        <ul className='-ml-5 list-disc mt-1'>
+                            <li>Pretoria, South Africa</li>
+                            <li><a className='no-underline' href="tel:+27-79-553-5147">+27-79-553-5147</a></li>
+                            <li><a className='no-underline' href="mailto:mashengete@live.com">mashengete@live.com</a></li>
+                        </ul>
                     </div>
                 </div>
 
@@ -41,9 +46,14 @@ function Resume() {
             <div className='Experience'>
                 <h3 className='font-medium'>Professional Experience</h3>
                 <div className="experience">
-                    <h4>The Digital Academy</h4> 
+                    <h4>Full Stack Developer</h4> 
                     <h6 className='resume-item'>Present</h6>
-
+                    <em>The Digital Academy</em>
+                    <ul className='-ml-5 list-disc mt-1'>
+                            <li>Pretoria, South Africa</li>
+                            <li><a className='no-underline' href="tel:+27-79-553-5147">+27-79-553-5147</a></li>
+                            <li><a className='no-underline' href="mailto:mashengete@live.com">mashengete@live.com</a></li>
+                        </ul>
                 </div>
             </div>
         </div>
