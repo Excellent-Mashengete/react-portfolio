@@ -1,13 +1,18 @@
 import './home.css';
 import Profile from './Profile/profile';
-import Footer from './HomeFooter/homefooter';
+import Footer from './Footer/footer';
 
 function Home(){
     return(
         <div className='home-container'>
-              <Footer />
-            <Profile />
-      
+           
+            <div className='profile'>
+                <Profile />
+            </div>
+{/* 
+            <div >
+                <Footer /> 
+            </div> */}
         </div>
     );
 }

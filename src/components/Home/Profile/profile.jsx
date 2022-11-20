@@ -1,7 +1,7 @@
 import './profile.css'
 import { AiFillLinkedin } from 'react-icons/ai';
 import { BsGithub } from "react-icons/bs";
-import Typical from "react-typical";
+import Typical from "typewriter-effect";
 import resume from "../../../assets/ehizcv.pdf";
 
 function Profile() {
@@ -9,8 +9,8 @@ function Profile() {
     let github = "https://github.com/Excellent-Mashengete";
     return (
         <div className='profile-container '>
-            <div className='profile-parent grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-16'>
-                <div className='profile-picture '>
+            <div className='profile-parent grid lg:xl:gap-30 gap-10 grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2'>
+                <div className='profile-picture'>
                     <div className='profile-picture-background '>
                     </div>
                 </div>
@@ -35,9 +35,15 @@ function Profile() {
                             <h1> 
                                 {""}
                                 <Typical 
-                                    steps={["A Full Stack Developer 🌐", 1000, "A Mean Stack Developer 💻", 1000]}
-                                    loop={Infinity}
-                                    wrapper="p"
+                                    options={{
+                                        strings: [
+                                            "A Full Stack Developer 🌐",
+                                            "A Mean & Pean Stack Developer 💻"
+                                        ],
+                                        autoStart: true,
+                                        loop: true,
+                                        deleteSpeed: 50,
+                                    }}
                                 />
                             </h1>
                             <span>

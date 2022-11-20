@@ -1,6 +1,6 @@
-import './homefooter.css';
+import './footer.css';
 import shape from '../../../assets/shape-bg.png'
-function HomeFooter(){
+function Footer(){
     return(
         <div className='footer-container'>
             <div className='footer-parent'>
@@ -9,4 +9,4 @@ function HomeFooter(){
         </div>
     );
 }
-export default HomeFooter;
+export default Footer;

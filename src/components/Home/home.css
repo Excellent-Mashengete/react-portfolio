@@ -1,7 +1,10 @@
 .home-container{
-    display: flex;
-    flex-direction: column;
     justify-content: space-between;
-    min-height: 670px;
+    height: 100vh;
     background-image: url("../../assets/images/bg.jpg");
+    
+}
+
+.profile{
+    width: 100%;
 }
