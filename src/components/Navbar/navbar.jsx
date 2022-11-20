@@ -42,10 +42,6 @@ function Header() {
               <Nav.Item>
                 <Nav.Link  exact="true" smooth="true" href="#about"><AiOutlineUser style={{marginTop: "4px", marginRight:"5px"}}/>ABOUT</Nav.Link>
               </Nav.Item>
-  
-              <Nav.Item>
-                <Nav.Link ><AiOutlineDownload style={{marginTop: "4px", marginRight:"5px"}} />RESUME</Nav.Link>
-              </Nav.Item>
                       
               <Nav.Item>
                 <Nav.Link  exact="true" smooth="true" href="#projects"><AiOutlineFundProjectionScreen style={{marginTop: "4px", marginRight:"5px"}} /> PROJECTS</Nav.Link>

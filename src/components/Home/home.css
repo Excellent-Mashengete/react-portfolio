@@ -1,10 +1,12 @@
 .home-container{
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
     height: 100vh;
     background-image: url("../../assets/images/bg.jpg");
     
 }
-
-.profile{
-    width: 100%;
+@media (max-width: 991px) {
+    .profile{
+        padding-top: 10%;
+    }
 }

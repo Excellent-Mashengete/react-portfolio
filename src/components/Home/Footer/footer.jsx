@@ -4,7 +4,7 @@ function Footer(){
     return(
         <div className='footer-container'>
             <div className='footer-parent'>
-                <img src={shape} />
+                <img src={shape} alt="" />
             </div>
         </div>
     );

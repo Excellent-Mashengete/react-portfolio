@@ -1,11 +1,9 @@
- 
-.navbar-toggler {
+ .navbar-toggler {
     padding: 0.25rem 1.5rem !important;
     position: relative !important;
     background-color: transparent !important;
     border-color: transparent !important;
 }
-
 .navbar-toggler span {
     display: block !important;
     background-color: #be50f4 !important;
@@ -17,16 +15,13 @@
     left: 0 !important;
     opacity: 1 !important;
 }
-  
 .navbar-toggler:focus, .navbar-toggler:active {
     outline: 0 !important;
 }
-  
 .navbar-toggler span:nth-child(1), .navbar-toggler span:nth-child(3) {
     transition: transform 0.35s ease-in-out !important;
     transition: transform 0.35s ease-in-out !important;
-}
-  
+} 
 .navbar-toggler:not(.collapsed) span:nth-child(1) {
     position: absolute !important;
     left: 12px !important;
@@ -34,13 +29,11 @@
     transform: rotate(135deg) !important;
     opacity: 0.9 !important;
 }
-  
 .navbar-toggler:not(.collapsed) span:nth-child(2) {
     height: 12px !important;
     visibility: hidden !important;
     background-color: transparent !important;
 }
-  
 .navbar-toggler:not(.collapsed) span:nth-child(3) {
     position: absolute !important;
     left: 12px !important;
@@ -48,7 +41,6 @@
     transform: rotate(-135deg) !important;
     opacity: 0.9 !important;
 } 
-
 .navbar .navbar-brand, .navbar-nav .nav-link{
     display: inline-flex;
     margin-left: 12px;
@@ -57,8 +49,8 @@
 .navbar .navbar-brand:hover, .navbar-nav .nav-link:hover{
     color: white;
 }
-
 .navbar {
+    font-family: "Poppins SemiBold";
     background-color: #262941!important; 
     height: 80px;
     position: sticky !important;
@@ -66,26 +58,26 @@
     font-size: 1.2rem !important; 
     z-index: 50 !important;
     transition: all 0.3s ease-out 0s !important;
-
 } 
 .sticky {
-    background-color: #ffffffd8 !important;
+    background-color: whitesmoke !important;
     transition: all 0.3s ease-out 0s !important; 
     box-shadow: 0px 10px 10px 0px rgba(29, 18, 85, 0.171) !important;
     backdrop-filter: blur(15px) !important;
     z-index: -1;
     font-weight: 400 !important;
-}  
-
+}
 .sticky .navbar-brand, .sticky .navbar-brand:hover, .sticky .navbar-nav .nav-link{
     color: black;
 }
 @media (max-width: 991px) {
     .navbar {
+        font-family: "Poppins SemiBold";
         background-color: #181a27!important;
         font-size: 1.4rem!important;
         padding: 1rem 2rem!important;
     }
+
     .navbar .navbar-brand, 
     .navbar .navbar-brand:hover,
     .navbar .navbar-brand:active,

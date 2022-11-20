@@ -1,20 +1,27 @@
-.UserContacts.location.address:hover {
-    color: blue;
+.contact-container{
+    background-color: #262941!important;;
 }
 
-.UserContacts p{
+.user-details p{
     font-size: large;
 }
-.UserContacts a{
+
+.user-details  a{
     color: inherit;
-  
 }
-.portfolio{
-    margin-left: 15%;
-    font-size: 2.5em;
+
+.user-details .user-icons{
+    color: var(--white);
+    align-items: center;
+    font-size: 2em;
     display: inline-flex;
 }
-.UserContacts .icons{
+.user-details .user-icons a:hover{
+    color: var(--white);
+    transform: scale(1.5);
+}
+
+.user-details .icons{
     margin-right: 12px;
     font-size: 20px;
     color: #0563bb;
@@ -28,8 +35,46 @@
     border-radius: 50px;
     transition: all 0.3s ease-in-out;
 }
-.UserContacts .location:hover > .icons{
+
+.user-details .user-location:hover > .icons{
     color: #eef7ff;
-    background: #0563bb;
+    background: var(--dark-orange);
     transition: all 0.3s ease-in-out;
+}
+.contact-detail h3{
+    color: #eef7ff;
+    font-family: "Poppins SemiBold";
+}
+.user-details .user-details-contacts h4 {
+    color: #eef7ff;
+    font-size: 24px;
+    font-family: "Poppins SemiBold";
+}
+.user-details .user-details-contacts p {
+    color: #eef7ff;
+    font-family: "Poppins SemiBold";
+}
+.user-details .user-details-contacts a:hover {
+    color: var(--dark-orange);
+}
+@media screen and (min-width: 1024px) {
+    .contact-container{
+        height: 100vh;
+        background-color: #262941!important;
+    }
+    .contact-parent{
+        padding-top: 7%;
+    } 
+    .contact-form{
+        width: 42vw;
+        margin-left: -15%;
+    }
+}
+@media screen and (max-width:1023px) {
+    .contact-parent{
+        padding-top: 7%;
+    } 
+    .contact-form{
+        margin-bottom: 10%;
+    }
 }
