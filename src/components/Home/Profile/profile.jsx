@@ -53,8 +53,10 @@ function Profile() {
                     </div>
 
                     <div className='profile-details-buttons'>
-                        <button type='btn' className='text-white contact lg:xl:text-lg font-medium rounded-full text-sm px-5 py-2.5 text-center'>{' '}Contact Me{''}</button>
-                        
+                        <a href="#contact">
+                            <button type='btn' className='text-white contact lg:xl:text-lg font-medium rounded-full text-sm px-5 py-2.5 text-center'>{' '}Contact Me{''}</button>
+                        </a>
+                       
                         <a href={resume} download="Excellent Resume.pdf">
                             <button type='btn' className="text-white highlighted ml-4 lg:xl:text-lg font-medium rounded-full text-sm px-5 py-2.5 text-center"><AiOutlineDownload style={{marginTop: "4px", marginRight:"5px"}} />Get Resume </button>
                         </a>

@@ -1,6 +1,5 @@
 import './home.css';
 import Profile from './Profile/profile';
-import Footer from './Footer/footer';
 
 function Home(){
     return(

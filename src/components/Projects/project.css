@@ -1,0 +1,60 @@
+.projects-container{
+    color: var(--font-color);
+    font-family: "Poppins" !important;
+}
+.projects-detail .project-heading{
+    color: var(--font-color);
+    font-weight: bolder;
+}
+
+.projects-detail-name .projects-card-image{
+    border-radius: 1.5rem;
+    overflow: hidden;
+    width: 310px;
+    height: 233px;
+}
+.projects-card{
+    border-radius: 5px !important;
+    padding: 1rem;
+    width: 354px;
+    height: 619px;
+}
+.projects-detail-name .projects-card .projects-card-name{
+    font-weight: bolder;
+    font-size: larger;
+}
+.projects-detail-name .projects-card .projects-card-desc{
+    font-size: larger;
+    height: 17vh;
+}
+.live-demo {
+    font-family: "Poppins SemiBold";
+    text-decoration: none;
+    color: var(--white);
+    border: 2px solid linen;
+    background-color: #ff5823;
+}
+.live-demo:hover {
+    color: aliceblue;
+    border: 2px solid #1f2235;
+}
+
+@media screen and (min-width: 1024px) {
+
+  .projects-parent{
+        padding-top: 7%;
+    } 
+}
+@media screen and (max-width:1023px) {
+    .projects-parent{
+        padding-top: 20%;
+    } 
+}
+.grow {
+    transition: all 0.3s ease-in-out;
+  }
+  
+.grow:hover {
+    transform: scale(1.06);
+  /* background-color: #151534; */
+}

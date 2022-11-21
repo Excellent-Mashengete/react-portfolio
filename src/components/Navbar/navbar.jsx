@@ -1,6 +1,6 @@
 import React, { useState, Fragment } from 'react'
 import { Container, Nav, Navbar} from "react-bootstrap";
-import { AiOutlineHome, AiOutlineFundProjectionScreen, AiOutlineUser, AiOutlineDownload } from "react-icons/ai";
+import { AiOutlineHome, AiOutlineFundProjectionScreen, AiOutlineUser } from "react-icons/ai";
 import { MdOutlineMail } from "react-icons/md";
 import './navbar.css';
 
@@ -36,7 +36,7 @@ function Header() {
                   
             <Nav className="navLink">
               <Nav.Item>
-                <Nav.Link  smooth="true"  href="/"><AiOutlineHome style={{marginTop: "4px", marginRight:"5px"}} />HOME</Nav.Link>
+                <Nav.Link  smooth="true" exact="true" href="#home"><AiOutlineHome style={{marginTop: "4px", marginRight:"5px"}} />HOME</Nav.Link>
               </Nav.Item>
 
               <Nav.Item>

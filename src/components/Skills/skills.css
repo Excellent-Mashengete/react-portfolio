@@ -6,7 +6,7 @@
     grid-column-start: unset;
 }
 
-.card:hover{
+.skills .card:hover{
     cursor: pointer;
     transform: perspective(700px) translate3d(0,0,80px);
 }
@@ -21,3 +21,4 @@
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
+

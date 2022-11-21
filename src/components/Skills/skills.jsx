@@ -8,12 +8,12 @@ import './skills.css';
 
 function Skills() {
     return (
-        <Container fluid className="mb-5">
+        <Container fluid className="mb-5 skills">
             <h3 className="flex justify-center project-heading mb-4">
                 Professional Skillset &  Languages 
             </h3> 
             <div className="flex justify-center"> 
-                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6 gap-8">
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-7 gap-8">
                     <div className="card tech-icons drop-shadow-xl rounded-none w-full bg-base-100 shadow-xl image-full" >
                         <SiCplusplus style={{color: "blue"}} />
                     </div>

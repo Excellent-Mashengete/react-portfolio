@@ -1,23 +1,29 @@
-.contact-container{
-    background-color: #262941!important;;
+.contact-card{
+    color: var(--white);
+    font-family: "Poppins";
+    border-radius: 5px !important;
+    vertical-align: middle !important;
+    text-align: center !important;
+    background-color: var(--font-color);
+    padding: 13px 0 0 13px;
 }
-
+.contact-detail .h6{
+    font-family: "Poppins";
+}
 .user-details p{
     font-size: large;
 }
-
 .user-details  a{
     color: inherit;
 }
-
-.user-details .user-icons{
-    color: var(--white);
-    align-items: center;
-    font-size: 2em;
+.user-details .user-icons {
+    color: #eef7ff;
+    font-size: 3em;
     display: inline-flex;
 }
+
 .user-details .user-icons a:hover{
-    color: var(--white);
+    color: #eef7ff;
     transform: scale(1.5);
 }
 
@@ -42,39 +48,77 @@
     transition: all 0.3s ease-in-out;
 }
 .contact-detail h3{
-    color: #eef7ff;
-    font-family: "Poppins SemiBold";
+    color: var(--font-color);
+    font-weight: bolder;
+    font-family: "Poppins";
 }
 .user-details .user-details-contacts h4 {
     color: #eef7ff;
     font-size: 24px;
     font-family: "Poppins SemiBold";
 }
+.user-details .user-details-contacts h6 {
+    color: var(--font-color);
+    font-size: 24px;
+    font-family: "Poppins SemiBold";
+}
 .user-details .user-details-contacts p {
-    color: #eef7ff;
+    color: #eef7ff;;
     font-family: "Poppins SemiBold";
 }
 .user-details .user-details-contacts a:hover {
     color: var(--dark-orange);
 }
+.user-details-contacts{
+    text-align: start !important;
+}
+
 @media screen and (min-width: 1024px) {
     .contact-container{
         height: 100vh;
-        background-color: #262941!important;
     }
     .contact-parent{
         padding-top: 7%;
     } 
+    .contact-card{
+        padding-top:10%;
+    }
     .contact-form{
         width: 42vw;
         margin-left: -15%;
+    } 
+    .user-details-info {
+        position: absolute;
+        top: 12%;
+        left: 2%;
+        text-align: start !important;
+    }
+    .message{
+        position: absolute;
+        top: 5%;
+        left: 2%;
+        text-align: start !important;
     }
 }
 @media screen and (max-width:1023px) {
     .contact-parent{
-        padding-top: 7%;
+        padding-top: 20%;
     } 
     .contact-form{
         margin-bottom: 10%;
+    } 
+    .user-details .user-icons {
+        font-size: 2.5em;
     }
-}
+    .user-details-info { 
+        margin-top: 2%;
+        margin-bottom: 3%;
+        text-align: start !important;
+    }
+    .message{
+        
+        font-weight: bolder !important;;
+        text-align: start !important;
+    }
+  
+} 

@@ -4,14 +4,21 @@ import { Container } from 'react-bootstrap';
 
 function About() {
     return (
-        <Container>
-            <div className='about'>
-                <h3 className="flex justify-center project-heading mb-4">
+        <div className='about-container'>
+            <div className='about-parent '>
+                <div className='about-detail'>
+                    <h3 className="flex justify-center about-heading mb-4">
                     About 
-                </h3> 
-                <Skills />
+                    </h3>
+                    <Container className='container about-detail-name ' >
+                        
+                    </Container>
+                    <div className='about-skills'>
+                        <Skills />
+                    </div>
+                </div>
             </div>
-        </Container>
+        </div>
     );
 }
 

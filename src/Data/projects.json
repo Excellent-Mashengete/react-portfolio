@@ -1,0 +1,33 @@
+[
+    {
+        "name": "Sneakerwear",
+        "description":"sneakerwear is a platform created by Brainhackers for consumers to purchase sneakers",
+        "image":"https://i.pinimg.com/564x/39/6c/d8/396cd8e1d8557f73c786892cffa4f13c.jpg",
+        "github":"https://gitlab.thedigitalacademy.co.za/caiphus/brainhackers"
+
+    },
+    {
+        "name": "WizeRentalz",
+        "description":"The app is responsible for helping Low-income people find accommodation and landlords advertise their properties. A landlord gets to post their available property for rental e.g Backroom. All tenants will see the available property.",
+        "image":"https://i.pinimg.com/564x/39/6c/d8/396cd8e1d8557f73c786892cffa4f13c.jpg",
+        "github":"https://github.com/Excellent-Mashengete/WizeRentalz"
+    },
+    {
+        "name": "HRManagementSystem",
+        "description":"An App responsible for Human Resource or Administrators keep track of employees number in the company or add newly appointed employees to their system",
+        "image":"https://i.pinimg.com/564x/39/6c/d8/396cd8e1d8557f73c786892cffa4f13c.jpg",
+        "github":"https://github.com/Excellent-Mashengete/managementSystem"
+    },
+    {
+        "name": "Movie Database",
+        "description":"An app that helps users search for newly released movies and series, and it allows them to create their watch list",
+        "image":"https://i.pinimg.com/564x/39/6c/d8/396cd8e1d8557f73c786892cffa4f13c.jpg",
+        "github":"https://github.com/Excellent-Mashengete/MovieDabase"
+    },
+    {
+        "name": "Meets",
+        "description":"message",
+        "image":"https://i.pinimg.com/564x/39/6c/d8/396cd8e1d8557f73c786892cffa4f13c.jpg",
+        "github": "https://github.com/tshifhiwamnguni/react-meets"
+    }
+]

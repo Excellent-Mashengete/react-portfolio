@@ -49,6 +49,14 @@
 .navbar .navbar-brand:hover, .navbar-nav .nav-link:hover{
     color: white;
 }
+
+.navbar-nav .nav-link.active {
+    color: var(--dark-orange)!important;
+}
+/* .navbar-nav .nav-link:active, .navbar-nav > .nav-link:after {
+    color: var(--dark-orange);
+} */
+
 .navbar {
     font-family: "Poppins SemiBold";
     background-color: #262941!important; 

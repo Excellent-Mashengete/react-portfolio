@@ -12,15 +12,17 @@
   --orange-shadow: rgba(245, 127, 23,0.2);
   --white: #ffffff;
   --black: #333333;
+  --font-color: #262941;
   --disabled-btn: #09bead7a;
   --error-message:  #e44f4fd1;
   --toast-error: #e44f4ffa;
   --toast-shadow:  #9c9c9ce3;
   --toast-success: #0CBFAE;
-  --loader-color: #0CBFAE
-}
-
-.contacts{
-  height: 100vh;
-
+  --loader-color: #0CBFAE;
+  --color-bg-variant:#2c2c6c;
+  --color-primary:#4db5ff;
+  --color-primary-variant: rgba(77,181, 255, 0.4);
+  --wd-lg: 75%;
+  --wd-md: 86%;
+  --wd-sm: 90%;
 }
