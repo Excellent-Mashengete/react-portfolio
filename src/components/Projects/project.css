@@ -2,8 +2,7 @@
     color: var(--font-color);
     font-family: "Poppins" !important;
 }
-.projects-detail .project-heading{
-    color: var(--font-color);
+.projects-detail h3{
     font-weight: bolder;
 }
 
@@ -13,11 +12,16 @@
     width: 310px;
     height: 233px;
 }
-.projects-card{
+.projects-detail-name .card{
     border-radius: 5px !important;
-    padding: 1rem;
+    padding: 1.4rem;
     width: 354px;
-    height: 619px;
+    transition: all 0.3s ease-in-out;
+}
+.projects-detail-name .card:hover{
+    transform: scale(1.02);
+    color: var(--white);
+    background-color: #1f2235;
 }
 .projects-detail-name .projects-card .projects-card-name{
     font-weight: bolder;
@@ -25,11 +29,24 @@
 }
 .projects-detail-name .projects-card .projects-card-desc{
     font-size: larger;
-    height: 17vh;
+    height: 22vh;
+}
+.github-link{
+    font-family: "Poppins SemiBold";
+    color: var(--white);
+    border: 2px solid linen;
+    background-color: #1f2235;
+    padding: 0.625rem 1.5rem;
+}
+.github-link:hover{
+    color: aliceblue;
+    border: 2px solid #ff5823;
+    background-color: #1f2235;
 }
 .live-demo {
     font-family: "Poppins SemiBold";
     text-decoration: none;
+    padding: 0.625rem 1.5rem;
     color: var(--white);
     border: 2px solid linen;
     background-color: #ff5823;
@@ -40,7 +57,14 @@
 }
 
 @media screen and (min-width: 1024px) {
+    .projects-parent{
+        padding-top: 7%;
+    } 
+}
 
+
+/* 
+@media screen and (min-width: 1024px) {
   .projects-parent{
         padding-top: 7%;
     } 
@@ -50,11 +74,4 @@
         padding-top: 20%;
     } 
 }
-.grow {
-    transition: all 0.3s ease-in-out;
-  }
-  
-.grow:hover {
-    transform: scale(1.06);
-  /* background-color: #151534; */
-}
+ */

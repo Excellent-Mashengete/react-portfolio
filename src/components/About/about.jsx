@@ -8,9 +8,9 @@ function About() {
             <div className='about-parent '>
                 <div className='about-detail'>
                     <h3 className="flex justify-center about-heading mb-4">
-                    About 
+                        About Me  
                     </h3>
-                    <Container className='container about-detail-name ' >
+                    <Container className='about-detail-name ' >
                         
                     </Container>
                     <div className='about-skills'>

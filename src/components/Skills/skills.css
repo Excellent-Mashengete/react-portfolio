@@ -1,24 +1,28 @@
-.card{
+.skills .card{
     width: 150px;
-}
-.card.image-full:before, .card.image-full > *{
-    background-color: #ffffff00;
-    grid-column-start: unset;
+    border-radius: 5px !important;
+    border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+    box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
 }
 
 .skills .card:hover{
     cursor: pointer;
-    transform: perspective(700px) translate3d(0,0,80px);
+    transform: scale(1.06);
 }
+
 .tech-icons {
-  font-size: 4em !important;
-  padding: 10px !important;
-  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  font-size: 3em !important;
   vertical-align: middle !important;
   text-align: center !important;
-  border-radius: 5px !important;
-  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
-  overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
 
+.skills .card h2{
+    display: inline-flex !important;
+}
+
+.skills .card p{
+    color: var(--font-color);
+    font-weight: bolder;
+    font-family: "Poppins";
+}

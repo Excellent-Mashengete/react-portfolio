@@ -4,20 +4,23 @@ import Footer from "./components/Footer/footer"
 import About from "./components/About/about";
 import Projects from "./components/Projects/projects";
 import Contact from "./components/Contact/contact";
-import {  BrowserRouter as Router } from "react-router-dom";
+import ScrollToTop from "./components/ScrollToSection/ScrollToTop";
+
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 import './App.css';
 
 function App() {
   return (
-    <Router>
+    <div className="App">
+      <ScrollToTop />
       <Header />
-      <section id="home"><Home /></section>
-      <section id="about"><About /></section>
-      <section id="projects"><Projects /></section>
-      <section id="contact"><Contact /></section>
+        <section id='home'><Home /></section>
+        <section id='about'><About /></section>
+        <section id='portfolio'><Projects /></section>
+        <section id='contact'><Contact /></section>
       <Footer /> 
-    </Router>
+    </div>
   );
 }
 
