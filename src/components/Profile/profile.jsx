@@ -1,6 +1,6 @@
 import { Container } from 'react-bootstrap';
 import {FaHandPointRight} from 'react-icons/fa';
-import profileImage from '../../assets/images/working.png';
+import profileImage from '../../assets/images/working-removebg-preview.png';
 import './profile.css';
 
 function Profile() {
