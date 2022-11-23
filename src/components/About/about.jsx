@@ -1,7 +1,6 @@
 import './about.css';
-import Skills from '../Skills/skills'
-import { Container } from 'react-bootstrap';
-
+import Skills from '../Skills/skills';
+import Profile from '../Profile/profile';
 function About() {
     return (
         <div className='about-container'>
@@ -10,9 +9,9 @@ function About() {
                     <h3 className="flex justify-center about-heading mb-4">
                         About Me  
                     </h3>
-                    <Container className='about-detail-name ' >
-                        
-                    </Container>
+                    <div className='About-profile'>
+                        <Profile />
+                    </div>
                     <div className='about-skills'>
                         <Skills />
                     </div>

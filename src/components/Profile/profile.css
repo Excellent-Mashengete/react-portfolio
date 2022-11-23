@@ -1,0 +1,22 @@
+.userabout-parent .card{
+    border: none;
+    background-color: inherit;
+    font-family: "Poppins";
+    color: var(--font-color);
+}
+.card-profile .card-profile-details{
+    text-align: start;
+    font-size: larger;
+    padding-top: 2%;
+}
+.card-profile-brief ul li{
+    display: flex;
+    padding: 12px 0;
+}
+
+.card-profile .image{
+    padding-top: 40px;
+}
+.userabout-container{
+    margin-bottom: 20px;
+}
