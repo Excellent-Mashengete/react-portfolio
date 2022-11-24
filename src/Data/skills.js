@@ -6,8 +6,6 @@ export const skillsData = [
     "NestJs",
     "HTML",
     "CSS",
-    "Bootstrap",
-    "Tailwind",
     "Javascript",
     "Angular",
     "React",

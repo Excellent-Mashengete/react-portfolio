@@ -19,7 +19,7 @@ function Header() {
 
   return (
       <Navbar collapseOnSelect expand="lg" sticky='top' className={navColour ? "sticky" : "navbar"} > 
-        <Container >
+        <Container  >
           <Navbar.Brand href="#">E.N.M</Navbar.Brand>
           <Navbar.Toggle className="text-white" aria-controls="responsive-navbar-nav" >
             <span></span>

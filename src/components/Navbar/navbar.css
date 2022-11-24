@@ -54,6 +54,7 @@
 .navbar-nav .nav-link.active {
     color: var(--dark-orange)!important;
 } 
+
 /* Styling a static navbar */
 .navbar {
     font-family: "Poppins";
@@ -69,66 +70,74 @@
     position: relative;
     width: 100%;
 }
-/* Create line below nav links and hide the lines created */
-.navbar-nav .nav-link:before {
-    content: "";
-    position: absolute;
-    width: 0%;
-    height: 2px;
-    bottom: 10px;
-    left: 5;
-    background-color: var(--dark-orange);
-    visibility: hidden;
-    transition: all 0.3s ease-in-out 0s;
-} 
+@media screen  and (min-width: 1024px){
+    /* Create line below nav links and hide the lines created */
+    .navbar-nav .nav-link:before {
+        content: "";
+        position: absolute;
+        width: 0%;
+        height: 2px;
+        bottom: 10px;
+        left: 5;
+        background-color: var(--dark-orange);
+        visibility: hidden;
+        transition: all 0.3s ease-in-out 0s;
+    } 
 
-/* Make line created above available on hover and focus on clicked link */
-.nav-link:hover:before,
-.navbar .nav-link.active:before {
-    visibility: visible;
-    width: 80%;
-}  
+    /* Make line created above available on hover and focus on clicked link */
+    .nav-link:hover:before,
+    .navbar .nav-link.active:before {
+        visibility: visible;
+        width: 80%;
+    } 
 
-/* Styling a scrolles navbar using sticky className */
-.sticky {
-    background-color: whitesmoke !important;
-    transition: all 0.3s ease-out 0s !important; 
-    box-shadow: 0px 10px 10px 0px rgba(29, 18, 85, 0.171) !important;
-    backdrop-filter: blur(15px) !important;
-    z-index: -1;
-    font-weight: 400 !important;
+    /* Styling a scrolles navbar using sticky className */
+    .sticky {
+        background-color: whitesmoke !important;
+        transition: all 0.3s ease-out 0s !important; 
+        box-shadow: 0px 10px 10px 0px rgba(29, 18, 85, 0.171) !important;
+        backdrop-filter: blur(15px) !important;
+        z-index: -1;
+        font-weight: 400 !important;
+    }
+    .sticky .navbar-brand, .sticky .navbar-brand:hover, .sticky .navbar-nav .nav-link{
+        color: var(--font-color);
+    }
+    .sticky .nav-link.active {
+        color: var(--font-color)!important;
+    } 
+
+    /* Creating an inheritable navbar */
+    .sticky .nav-item .nav-link  {
+        position: relative;
+        width: 100%;
+    }
+    /* Create line below nav links and hide the lines created */
+    .sticky .nav-link:before {
+        content: "";
+        position: absolute;
+        width: 0%;
+        height: 2px;
+        bottom: 10px;
+        left: 5;
+        background-color: var(--font-color);
+        visibility: hidden;
+        transition: all 0.3s ease-in-out 0s;
+    } 
+
+    /* Make line created above available on hover and focus on clicked link */
+    .sticky .nav-link:hover:before,
+    .sticky .nav-link.active:before {
+        visibility: visible;
+        width: 80%;
+    }  
 }
-.sticky .navbar-brand, .sticky .navbar-brand:hover, .sticky .navbar-nav .nav-link{
-    color: var(--font-color);
-}
-.sticky .nav-link.active {
-    color: var(--font-color)!important;
-} 
 
-/* Creating an inheritable navbar */
-.sticky .nav-item .nav-link  {
-    position: relative;
-    width: 100%;
+@media screen and (max-width:1023px) {
+    .navbar .container{
+        background-color: var(--font-color);
+    }
 }
-/* Create line below nav links and hide the lines created */
-.sticky .nav-link:before {
-    content: "";
-    position: absolute;
-    width: 0%;
-    height: 2px;
-    bottom: 10px;
-    left: 5;
-    background-color: var(--font-color);
-    visibility: hidden;
-    transition: all 0.3s ease-in-out 0s;
-} 
-
-/* Make line created above available on hover and focus on clicked link */
-.sticky .nav-link:hover:before,
-.sticky .nav-link.active:before {
-    visibility: visible;
-    width: 80%;
-}  
 
 /*
 .sticky .navbar-brand, .sticky .navbar-brand:hover, .sticky .navbar-nav .nav-link{

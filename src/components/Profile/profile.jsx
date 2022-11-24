@@ -35,7 +35,7 @@ function Profile() {
                                 </div>
                             </div>
 
-                            <div className='card-profile'>
+                            <div className='card-profile' >
                                 <div className='image'>
                                     <img src={profileImage} alt="profile" />
                                 </div>

@@ -6,8 +6,11 @@
 
 @media screen and (min-width: 1024px) {
     .about-parent{
-        padding-top: 7%;
-    } 
+        padding-top: 10%;
+    }
+    .about-skills{
+        padding-top: 5%;
+    }
 
 }
 @media screen and (max-width:1023px) {
