@@ -20,6 +20,8 @@
 .userabout-container{
     margin-bottom: 20px;
 }
-.userabout-container{
-    height: 70vh;
+@media screen and (min-width:1024px) {
+    .userabout-container{
+        height: 70vh;
+    }
 }

@@ -1,10 +1,10 @@
-import Home from "./components/Home/home";
-import Header from "./components/Navbar/navbar";
-import Footer from "./components/Footer/footer"
-import About from "./components/About/about";
-import Projects from "./components/Projects/projects";
-import Contact from "./components/Contact/contact";
-import ScrollToTop from "./components/ScrollToSection/ScrollToTop";
+import Home from "./Components/Home/home";
+import Header from "./Components/Navbar/navbar";
+import Footer from "./Components/Footer/footer"
+import About from "./Components/About/about";
+import Projects from "./Components/Projects/projects";
+import Contact from "./Components/Contact/contact";
+import ScrollToTop from "./Components/ScrollToSection/ScrollToTop";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 

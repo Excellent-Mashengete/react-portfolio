@@ -61,7 +61,11 @@
         padding-top: 10%;
     } 
 }
-
+@media screen and (max-width: 1023px) {
+    .projects-container{
+        margin-bottom: 10%;
+    }
+}
 
 /* 
 @media screen and (min-width: 1024px) {

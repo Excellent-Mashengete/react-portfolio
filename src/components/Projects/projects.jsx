@@ -31,7 +31,7 @@ function Project() {
                                                     <button type='btn' className='text-white github-link font-medium rounded-full text-sm text-center'>{' '}Github{''}</button>
                                                 </a>
 
-                                                <a href="https://9anime.to/" target={"_blank"} rel="noreferrer">
+                                                <a href={project['live-demo']} target={"_blank"} rel="noreferrer">
                                                     <button type='btn' className="text-white live-demo ml-4 font-medium rounded-full text-sm text-center">{' '}Live Demo {''}</button>
                                                 </a>
                                             </div>
