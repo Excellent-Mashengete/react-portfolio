@@ -16,14 +16,15 @@ function Profile() {
                                 </div>
                                 <div className="card-profile-details">
                                     <div className='card-profile-name'>
-                                        <p>Hi Everyone, I am <span className='profile-name'> Excellent Nhlanhla Mashengte</span> A Full-Stack Developer from South Africa</p>
+                                        <p>Hi Everyone, I am <span className='profile-name'> Excellent Nhlanhla Mashengte</span> a full-stack developer from South Africa</p>
                                     </div>
 
                                     <div className='card-profile-brief'>
-                                        <p>I'm an IT Specialist in software development, with experience building web application working as a full-stack developer using sets of 
-                                            skills mentioned below.
+                                        <p>I am an IT specialist with a focus on software development. I have experience in developing web applications as a 
+                                            full-stack developer using the sets of talents listed below.
                                         </p>
                                     </div>
+                     
 
                                     <div className='card-profile-brief'>
                                         <p>Apart from coding, some other activities that I love to do!</p>

@@ -6,9 +6,13 @@ import './skills.css';
 function Skills() {
    return (
       <Container fluid className=" skills">
-         <h3 className="flex justify-center project-heading mb-4">
+         <h3 className="flex justify-center project-heading mb-2">
             Professional Skillset &  Languages 
          </h3> 
+         <h6 className="flex justify-center project-heading mb-4">
+            These are the technologies I've worked with
+         </h6>
+
          <div className="flex justify-center"> 
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6 gap-8">  
             {skillsData.map((skill, id) => (
@@ -26,6 +30,4 @@ function Skills() {
       </Container>
    );
 }
-
 export default Skills;
-

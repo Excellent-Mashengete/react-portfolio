@@ -15,7 +15,7 @@ function Profile() {
                 </div>
               
                 <div className='profile-detail'>
-                    <div className='profile-icons'>
+                    <div className='profile-icons '>
                         <div className="icons">
                             <a href={linkedIn} target="_blank" rel="noreferrer"><AiFillLinkedin /></a>
                             <a className='ml-3' href={github} target="_blank" rel="noreferrer"><BsGithub /></a>
@@ -25,7 +25,7 @@ function Profile() {
                     <div className='profile-details-name'>
                         <span className='profile-text'>
                             {" "}
-                            Hi There <br /> I'm <span className='user-name'>Excellent Mashengete</span>
+                            Hi There <br /> my name is <span className='user-name'>Excellent Mashengete</span>
                         </span>
                     </div>
 

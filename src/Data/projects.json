@@ -2,7 +2,7 @@
     {
         "name": "Sneakerwear",
         "description":"sneakerwear is a platform created by Brainhackers for consumers to purchase sneakers",
-        "image":"https://i.pinimg.com/564x/39/6c/d8/396cd8e1d8557f73c786892cffa4f13c.jpg",
+        "image":"https://raw.githubusercontent.com/Excellent-Mashengete/brainhackers/main/angular/src/assets/Group%202%20(1).png",
         "github":"https://gitlab.thedigitalacademy.co.za/caiphus/brainhackers",
         "live-demo":"https://sneakerwear.netlify.app/"
 
@@ -10,36 +10,29 @@
     {
         "name": "HRManagementSystem",
         "description":"An App responsible for Human Resource or Administrators keep track of employees number in the company or add newly appointed employees to their system",
-        "image":"https://i.pinimg.com/564x/39/6c/d8/396cd8e1d8557f73c786892cffa4f13c.jpg",
+        "image":"",
         "github":"https://github.com/Excellent-Mashengete/managementSystem",
         "live-demo":"https://employeesystem.netlify.app/"
     },
     {
         "name": "Movie Database",
         "description":"An app that helps users search for newly released movies and series, and it allows them to create their watch list",
-        "image":"https://i.pinimg.com/564x/39/6c/d8/396cd8e1d8557f73c786892cffa4f13c.jpg",
+        "image":"",
         "github":"https://github.com/Excellent-Mashengete/MovieDabase",
-        "live-demo":"https://sneakerwear.netlify.app/"
+        "live-demo":""
     },
     {
         "name": "Authenticate app",
         "description":"an authentication app for registering new user and login using jwt sign, you are able to update your password through forgot password. built using expressjs, nodejs and postgreSQL",
-        "image":"https://i.pinimg.com/564x/39/6c/d8/396cd8e1d8557f73c786892cffa4f13c.jpg",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrvLfwXpmAEZSsGkdCpv2iWlwOWk71_I_odA&usqp=CAU",
         "github": "https://github.com/Excellent-Mashengete/authenticationNode",
         "live-demo":""
     },
     {
         "name": "Bookstore Management",
         "description":" built using Django, Django Rest Framework, Angular and PostgreSQL",
-        "image":"https://i.pinimg.com/564x/39/6c/d8/396cd8e1d8557f73c786892cffa4f13c.jpg",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3kSXm83TfNqSSkdpiQVXvv4uhrVBx_pChcQ&usqp=CAU",
         "github": "https://github.com/Excellent-Mashengete/DajngoAngularCrud",
-        "live-demo":""
-    },
-    {
-        "name": "WizeRentalz",
-        "description":"The app is responsible for helping Low-income people find accommodation and landlords advertise their properties. A landlord gets to post their available property for rental e.g Backroom. All tenants will see the available property.",
-        "image":"https://i.pinimg.com/564x/39/6c/d8/396cd8e1d8557f73c786892cffa4f13c.jpg",
-        "github":"https://github.com/Excellent-Mashengete/WizeRentalz",
         "live-demo":""
     }
 ]
