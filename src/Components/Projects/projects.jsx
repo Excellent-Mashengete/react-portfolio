@@ -25,6 +25,8 @@ function Project() {
                                                 <img src={project.image} alt="Shoes" className="rounded-xl" />
                                             </figure>
                                             <h3 className="projects-card-name">{project.name}</h3>
+                                           
+                                            <div className='description'>
                                             <h3 className="projects-card-desc">{project.description}</h3>
                                             <div className='projects-card-actions mt-6'>
                                                 <a href={project.github}>
@@ -35,6 +37,8 @@ function Project() {
                                                     <button type='btn' className="text-white live-demo ml-4 font-medium rounded-full text-sm text-center">{' '}Live Demo {''}</button>
                                                 </a>
                                             </div>
+                                            </div>
+                                           
                                         </div>
                                     ))}
                                 </div>

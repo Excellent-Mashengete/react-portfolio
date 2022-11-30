@@ -11,9 +11,6 @@ function Profile() {
                     <div className="card-body">
                         <div className="grid gap-10 grid-cols-1 lg:grid-cols-2 xl:grid-cols-2" >
                             <div className='card-profile'>
-                                <div className='card-profile-heading'>
-                                    <h3>Know Who I'M</h3>
-                                </div>
                                 <div className="card-profile-details">
                                     <div className='card-profile-name'>
                                         <p>Hi Everyone, I am <span className='profile-name'> Excellent Nhlanhla Mashengte</span> a full-stack developer from South Africa</p>

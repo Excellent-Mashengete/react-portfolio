@@ -5,9 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
+
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+
   <React.StrictMode>
+    
     <style>{'body { background-color: whitesmoke; }'}</style>
     <App />  
   </React.StrictMode>,

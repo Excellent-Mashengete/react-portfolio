@@ -1,7 +1,7 @@
 .userabout-parent .card{
     border: none;
     background-color: inherit;
-    font-family: "Poppins";
+
     color: var(--font-color);
 }
 .card-profile .card-profile-details{

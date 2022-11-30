@@ -1,5 +1,4 @@
 .contact-container{
-    font-family: "Poppins";
     padding-bottom: 12px;
 }
 .contact-detail h3{
@@ -50,11 +49,9 @@
     margin-top: 10%;
     color: var(--white);
     font-size: 24px;
-    font-family: "Poppins";
 }
 .card-info .user-details-contacts p{
     color: var(--white);
-    font-family: "Poppins";
 }
 .card-info .user-details-contacts a {
     color: var(--white);

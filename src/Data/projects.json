@@ -1,7 +1,7 @@
 [
     {
         "name": "Sneakerwear",
-        "description":"sneakerwear is a platform created by Brainhackers for consumers to purchase sneakers",
+        "description":"sneakerwear is a platform created by Brainhackers for consumers to purchase sneakers. Used Angular, Node.Js, Express.Js, PostgreSQL, and Boostrap",
         "image":"https://raw.githubusercontent.com/Excellent-Mashengete/brainhackers/main/angular/src/assets/Group%202%20(1).png",
         "github":"https://gitlab.thedigitalacademy.co.za/caiphus/brainhackers",
         "live-demo":"https://sneakerwear.netlify.app/"
@@ -9,28 +9,28 @@
     },
     {
         "name": "HRManagementSystem",
-        "description":"An App responsible for Human Resource or Administrators keep track of employees number in the company or add newly appointed employees to their system",
+        "description":"An App responsible for Human Resource or Administrators keep track of employees number in the company or add newly appointed employees to their system. Used Angular, Node.Js, Express.Js, PostgreSQL, DaisyUi, and PrimeNG",
         "image":"",
         "github":"https://github.com/Excellent-Mashengete/managementSystem",
         "live-demo":"https://employeesystem.netlify.app/"
     },
     {
         "name": "Movie Database",
-        "description":"An app that helps users search for newly released movies and series, and it allows them to create their watch list",
+        "description":"An app that helps users search for newly released movies and series, and it allows them to create their watch list. Used Angular, Nest.Js, MongoDB, DaisyUi, and PrimeNG",
         "image":"",
         "github":"https://github.com/Excellent-Mashengete/MovieDabase",
         "live-demo":""
     },
     {
         "name": "Authenticate app",
-        "description":"an authentication app for registering new user and login using jwt sign, you are able to update your password through forgot password. built using expressjs, nodejs and postgreSQL",
+        "description":"an authentication app for registering new user and login using jwt sign, you are able to update your password through forgot password. Used Node.Js, Express.Js, PostgreSQL",
         "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrvLfwXpmAEZSsGkdCpv2iWlwOWk71_I_odA&usqp=CAU",
         "github": "https://github.com/Excellent-Mashengete/authenticationNode",
         "live-demo":""
     },
     {
         "name": "Bookstore Management",
-        "description":" built using Django, Django Rest Framework, Angular and PostgreSQL",
+        "description":" Used Django, Django Rest Framework, Angular, PostgreSQL, and Boostrap",
         "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3kSXm83TfNqSSkdpiQVXvv4uhrVBx_pChcQ&usqp=CAU",
         "github": "https://github.com/Excellent-Mashengete/DajngoAngularCrud",
         "live-demo":""

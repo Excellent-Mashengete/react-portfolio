@@ -9,7 +9,8 @@
     transform: scale(1.5);
 }
 .contact{
-    font-family: "Poppins SemiBold";
+
+    /* font-size: 18px; */
     color: var(--white);
     border: 2px solid linen;
     background-color: #1f2235;
@@ -20,7 +21,7 @@
     background-color: #1f2235;
 }
 .highlighted {
-    font-family: "Poppins SemiBold";
+ 
     display: inline-flex;
     text-decoration: none;
     color: var(--white);
@@ -33,6 +34,7 @@
 }
 
 .profile-container{
+
     display: flex;
     align-items: center;
     text-align: center;
@@ -47,17 +49,17 @@
 }
 .profile-details-name{
     font-size: 24px;
-    font-family: "Poppins SemiBold";
+    
 }
 .profile-details-role{
     flex-direction: column;
     margin: 14px 0 24px 0; 
 }
 .profile-details-role .profile-text h1{
-    font-family: "Poppins SemiBold";
+
 }
 .profile-details-role .profile-text span{
-    font-family: "Poppins SemiBold";
+   
 }
 .profile-picture{
     display: flex;

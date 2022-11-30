@@ -25,7 +25,7 @@ function Profile() {
                     <div className='profile-details-name'>
                         <span className='profile-text'>
                             {" "}
-                            Hi There <br /> my name is <span className='user-name'>Excellent Mashengete</span>
+                            Hi my name is <span className='user-name'>Excellent Mashengete</span>
                         </span>
                     </div>
 
@@ -35,16 +35,16 @@ function Profile() {
                             <h1> 
                                 {""}
                                 <Typical 
-                                    options={{
-                                        strings: [
-                                            "A Full Stack Developer 🌐",
-                                            "A Mean & Pean Stack Developer 💻"
-                                        ],
-                                        autoStart: true,
-                                        loop: true,
-                                        deleteSpeed: 50,
+                                    onInit={(typewriter) => {
+                                        typewriter.typeString('A Full Stack Developer 🌐')
+                                        .pauseFor(2500)
+                                        .stop()
+                                        .start();
                                     }}
+
+                                   
                                 />
+                              
                             </h1>
                             <span>
                                 Knack of building application with front and back end operations.
