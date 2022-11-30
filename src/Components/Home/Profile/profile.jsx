@@ -8,7 +8,7 @@ function Profile() {
     let linkedIn = "https://za.linkedin.com/in/excellent-nhlanhla-mashengete-12535121b";
     let github = "https://github.com/Excellent-Mashengete";
     return (
-        <div className='profile-container '>
+        <div className='profile-container lg:xl:mt-16'>
             <div className='profile-parent grid lg:xl:gap-72 gap-10 grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2'>
                 <div className='profile-picture'>
                     <div className='profile-picture-background'></div>
@@ -58,7 +58,7 @@ function Profile() {
                         </a>
                        
                         <a href={resume} download="Excellent Resume.pdf">
-                            <button type='btn' className="text-white highlighted ml-4 lg:xl:text-lg font-medium rounded-full text-sm px-5 py-2.5 text-center"><AiOutlineDownload style={{marginTop: "4px", marginRight:"5px"}} />Get Resume </button>
+                            <button type='btn' className="text-white highlighted ml-4 lg:xl:text-lg font-medium rounded-full text-sm px-5 py-2.5 text-center "><span><AiOutlineDownload style={{marginTop: "4px", marginRight:"5px"}} />{' '}Get Resume {' '} </span></button>
                         </a>
                     </div>
                 </div>

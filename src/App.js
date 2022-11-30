@@ -15,10 +15,10 @@ function App() {
     <div className="App">
       <ScrollToTop />
       <Header />
-        <section id='home'><Home /></section>
-        <section id='about'><About /></section>
-        <section id='portfolio'><Projects /></section>
-        <section id='contact'><Contact /></section>
+        <section    id='home' ><Home /></section>
+        <section whileInView={{ href:'#about'}} id='about'><About /></section>
+        <section  whileInView={{ href:'#portfolio'}}id='portfolio'><Projects /></section>
+        <section whileInView={{ href:'#contact'}}  id='contact'><Contact /></section>
       <Footer /> 
     </div>
   );

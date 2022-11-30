@@ -35,7 +35,7 @@ function Header() {
                   
             <Nav className="navLink">
               <Nav.Item>
-                <Nav.Link smooth="true" exact="true"  href='#home' >
+                <Nav.Link smooth="true" exact="true"  href='#home'  >
                   <AiOutlineHome style={{marginTop: "4px", marginRight:"5px"}} />HOME
                 </Nav.Link>
               </Nav.Item>
