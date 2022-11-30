@@ -55,12 +55,7 @@
     flex-direction: column;
     margin: 14px 0 24px 0; 
 }
-.profile-details-role .profile-text h1{
 
-}
-.profile-details-role .profile-text span{
-   
-}
 .profile-picture{
     display: flex;
     justify-self: center;
